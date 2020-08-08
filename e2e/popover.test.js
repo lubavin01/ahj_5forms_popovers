@@ -8,9 +8,8 @@ describe('screenshot popover', () => {
 
   beforeAll(async () => {
     browser = await puppeteer.launch({
-      // headless: false,
-      // slowMo: 100,
-      // devtools: true,
+      // y
+      
     });
     page = await browser.newPage();
   });
